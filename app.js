@@ -1,5 +1,10 @@
 //importation des fichiers et modules à utiliser
 const express = require('express'), app = express(), port = 3000, connection = require('./db_mysql');
+const mongoose = require("mongoose");
+const CodeSchema=mongoose.Schema(
+
+)
+
 var bodyParser = require('body-parser')
 require('dotenv').config()
 console.log('ENV',process.env)
